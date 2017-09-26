@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1771D9091F798F02005B900D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1771D9081F798F02005B900D /* AppDelegate.swift */; };
+		1771D9101F798F02005B900D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1771D90E1F798F02005B900D /* Main.storyboard */; };
+		1771D9121F798F02005B900D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1771D9111F798F02005B900D /* Assets.xcassets */; };
+		1771D9151F798F02005B900D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1771D9131F798F02005B900D /* LaunchScreen.storyboard */; };
+		1771D91D1F7998DD005B900D /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1771D91C1F7998DD005B900D /* LibraryViewController.swift */; };
+		1771D91F1F79A4F4005B900D /* CategoryChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1771D91E1F79A4F4005B900D /* CategoryChooser.swift */; };
+		1771D9211F79A7B3005B900D /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1771D9201F79A7B3005B900D /* ViewExtensions.swift */; };
+		1771D9231F79C16F005B900D /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1771D9221F79C16F005B900D /* ReadViewController.swift */; };
+		1771D9251F79D225005B900D /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1771D9241F79D225005B900D /* RecentViewController.swift */; };
+		38D47C48BA24DFC121A39480 /* Pods_TADIG_Book.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0BBB252784DE1EC3246B90 /* Pods_TADIG_Book.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0013615DC06CB147AB6CDD18 /* Pods-TADIG-Book.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TADIG-Book.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TADIG-Book/Pods-TADIG-Book.debug.xcconfig"; sourceTree = "<group>"; };
+		1771D9051F798F02005B900D /* TADIG-Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TADIG-Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1771D9081F798F02005B900D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1771D90F1F798F02005B900D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1771D9111F798F02005B900D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1771D9141F798F02005B900D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1771D9161F798F02005B900D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1771D91C1F7998DD005B900D /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		1771D91E1F79A4F4005B900D /* CategoryChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryChooser.swift; sourceTree = "<group>"; };
+		1771D9201F79A7B3005B900D /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		1771D9221F79C16F005B900D /* ReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
+		1771D9241F79D225005B900D /* RecentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
+		2F0BBB252784DE1EC3246B90 /* Pods_TADIG_Book.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TADIG_Book.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04CB3A8C625DAE863EC7E64 /* Pods-TADIG-Book.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TADIG-Book.release.xcconfig"; path = "Pods/Target Support Files/Pods-TADIG-Book/Pods-TADIG-Book.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1771D9021F798F02005B900D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D47C48BA24DFC121A39480 /* Pods_TADIG_Book.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1771D8FC1F798F02005B900D = {
+			isa = PBXGroup;
+			children = (
+				1771D9071F798F02005B900D /* TADIG-Book */,
+				1771D9061F798F02005B900D /* Products */,
+				760A784FB9595E7FBAA10FAF /* Pods */,
+				E17BEBA27E71A69F4E291136 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1771D9061F798F02005B900D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1771D9051F798F02005B900D /* TADIG-Book.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1771D9071F798F02005B900D /* TADIG-Book */ = {
+			isa = PBXGroup;
+			children = (
+				1771D9081F798F02005B900D /* AppDelegate.swift */,
+				1771D90E1F798F02005B900D /* Main.storyboard */,
+				1771D9111F798F02005B900D /* Assets.xcassets */,
+				1771D9131F798F02005B900D /* LaunchScreen.storyboard */,
+				1771D9161F798F02005B900D /* Info.plist */,
+				1771D91C1F7998DD005B900D /* LibraryViewController.swift */,
+				1771D9201F79A7B3005B900D /* ViewExtensions.swift */,
+				1771D91E1F79A4F4005B900D /* CategoryChooser.swift */,
+				1771D9221F79C16F005B900D /* ReadViewController.swift */,
+				1771D9241F79D225005B900D /* RecentViewController.swift */,
+			);
+			path = "TADIG-Book";
+			sourceTree = "<group>";
+		};
+		760A784FB9595E7FBAA10FAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0013615DC06CB147AB6CDD18 /* Pods-TADIG-Book.debug.xcconfig */,
+				B04CB3A8C625DAE863EC7E64 /* Pods-TADIG-Book.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E17BEBA27E71A69F4E291136 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F0BBB252784DE1EC3246B90 /* Pods_TADIG_Book.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1771D9041F798F02005B900D /* TADIG-Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1771D9191F798F02005B900D /* Build configuration list for PBXNativeTarget "TADIG-Book" */;
+			buildPhases = (
+				F94CD52F3F0CAEFA98D3920C /* [CP] Check Pods Manifest.lock */,
+				1771D9011F798F02005B900D /* Sources */,
+				1771D9021F798F02005B900D /* Frameworks */,
+				1771D9031F798F02005B900D /* Resources */,
+				3A2F12EB203737ED1BF330EC /* [CP] Embed Pods Frameworks */,
+				8DF55ECDE74B27033222A2D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TADIG-Book";
+			productName = "TADIG-Book";
+			productReference = 1771D9051F798F02005B900D /* TADIG-Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1771D8FD1F798F02005B900D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Jagni;
+				TargetAttributes = {
+					1771D9041F798F02005B900D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1771D9001F798F02005B900D /* Build configuration list for PBXProject "TADIG-Book" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1771D8FC1F798F02005B900D;
+			productRefGroup = 1771D9061F798F02005B900D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1771D9041F798F02005B900D /* TADIG-Book */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1771D9031F798F02005B900D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1771D9151F798F02005B900D /* LaunchScreen.storyboard in Resources */,
+				1771D9121F798F02005B900D /* Assets.xcassets in Resources */,
+				1771D9101F798F02005B900D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A2F12EB203737ED1BF330EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TADIG-Book/Pods-TADIG-Book-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DF55ECDE74B27033222A2D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TADIG-Book/Pods-TADIG-Book-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F94CD52F3F0CAEFA98D3920C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1771D9011F798F02005B900D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1771D9091F798F02005B900D /* AppDelegate.swift in Sources */,
+				1771D91F1F79A4F4005B900D /* CategoryChooser.swift in Sources */,
+				1771D9211F79A7B3005B900D /* ViewExtensions.swift in Sources */,
+				1771D9251F79D225005B900D /* RecentViewController.swift in Sources */,
+				1771D91D1F7998DD005B900D /* LibraryViewController.swift in Sources */,
+				1771D9231F79C16F005B900D /* ReadViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1771D90E1F798F02005B900D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1771D90F1F798F02005B900D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1771D9131F798F02005B900D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1771D9141F798F02005B900D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1771D9171F798F02005B900D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1771D9181F798F02005B900D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1771D91A1F798F02005B900D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0013615DC06CB147AB6CDD18 /* Pods-TADIG-Book.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FMB4K7553;
+				INFOPLIST_FILE = "TADIG-Book/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jagni.TADIG-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1771D91B1F798F02005B900D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B04CB3A8C625DAE863EC7E64 /* Pods-TADIG-Book.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FMB4K7553;
+				INFOPLIST_FILE = "TADIG-Book/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jagni.TADIG-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1771D9001F798F02005B900D /* Build configuration list for PBXProject "TADIG-Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1771D9171F798F02005B900D /* Debug */,
+				1771D9181F798F02005B900D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1771D9191F798F02005B900D /* Build configuration list for PBXNativeTarget "TADIG-Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1771D91A1F798F02005B900D /* Debug */,
+				1771D91B1F798F02005B900D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1771D8FD1F798F02005B900D /* Project object */;
+}

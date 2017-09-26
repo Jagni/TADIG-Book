@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AD48ED0442CA561A4507C82CAE1D7D9 /* KUIPopOverUsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE87B16A050726721E1BCDF33C028FF /* KUIPopOverUsable.swift */; };
+		106FB08D14B2ABD258416CB8B2AEA2D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		57937BFCDB02631AAA4AE49C5FFFA5BE /* ZoomTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C797B1CEEF451C015877B80D4CF0EBB9 /* ZoomTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5976A56FE0A1414338640650CE1AF941 /* KUIPopOver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF082A41FD88B87ADFC8A7640AF3BD5 /* KUIPopOver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D76A7A6A1024DD168EE02B27FE303C /* ZoomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE7D76ED3BDCD8A60C7B97E235C51D8 /* ZoomTransition.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A9C2829958E8CF2645501EE6CAD83284 /* Pods-TADIG-Book-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F78A2B2F9C543A8DE421A6796C7E99F /* Pods-TADIG-Book-dummy.m */; };
+		B1D71C78BFB094A09A1DF139E1A12284 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B8BA01F3C1873AA2D014C6F8F1CB4389 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		BA65E9D9F724F86B2AD381074451AFB5 /* KUIPopOver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08911F270012FC84E773F8E5BC0DD4AA /* KUIPopOver-dummy.m */; };
+		BD8F7882331E348B3C24383FC4140D38 /* Pods-TADIG-Book-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF2D8A48F0A400BDD3E4F5469C838F5 /* Pods-TADIG-Book-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDF5094969F7647C5551D1CBBD015C90 /* KUIPopOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BF0626DEB3B396AC0CCE0622D58B78 /* KUIPopOver.swift */; };
+		C4E0D654084FC942EC100545CACF5A40 /* ZoomTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40796C3ADBD3AA60E5DD9743B9AA504F /* ZoomTransition-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10BC9ED960CB3ADC26F41EBD4820E066 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32DBC154A08216A871C849818C275B62;
+			remoteInfo = KUIPopOver;
+		};
+		432F6D1C52496FF95E296303676F8E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F402D00BED1B99590DFCBB776A591FEF;
+			remoteInfo = ZoomTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0049801CD59A196817ED68B9E2EE2DDF /* Pods-TADIG-Book.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TADIG-Book.modulemap"; sourceTree = "<group>"; };
+		08911F270012FC84E773F8E5BC0DD4AA /* KUIPopOver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KUIPopOver-dummy.m"; sourceTree = "<group>"; };
+		0BD3F807E4511E0BBB6E15F3B3F7A9F5 /* ZoomTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZoomTransition.framework; path = ZoomTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC116784A96CFA4BDD15A813314CC83 /* Pods-TADIG-Book-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TADIG-Book-acknowledgements.markdown"; sourceTree = "<group>"; };
+		32BF0626DEB3B396AC0CCE0622D58B78 /* KUIPopOver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KUIPopOver.swift; path = KUIPopOver/Classes/KUIPopOver.swift; sourceTree = "<group>"; };
+		3871D98BCE1FA499A7F54F79F66F4123 /* Pods-TADIG-Book-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TADIG-Book-resources.sh"; sourceTree = "<group>"; };
+		40796C3ADBD3AA60E5DD9743B9AA504F /* ZoomTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZoomTransition-dummy.m"; sourceTree = "<group>"; };
+		6CE0618E4252963BA7E7FF4280C1F15E /* ZoomTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZoomTransition.modulemap; sourceTree = "<group>"; };
+		71E478CA9FFFA897A9C56472B87D10CC /* KUIPopOver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KUIPopOver.modulemap; sourceTree = "<group>"; };
+		7CB932E189F6ABE45AE48A9F933EC268 /* ZoomTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZoomTransition.xcconfig; sourceTree = "<group>"; };
+		85A3C0FBAE30024498D6C03682196D1F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F1AE9A45D23E6B758BB7FA1F77CD2F /* Pods-TADIG-Book.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TADIG-Book.release.xcconfig"; sourceTree = "<group>"; };
+		8C6ED4C7D6C1EA3ED629F46BD5615CA3 /* Pods-TADIG-Book-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TADIG-Book-frameworks.sh"; sourceTree = "<group>"; };
+		90B9D71AFB11259001E127517FC91296 /* KUIPopOver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KUIPopOver-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F78A2B2F9C543A8DE421A6796C7E99F /* Pods-TADIG-Book-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TADIG-Book-dummy.m"; sourceTree = "<group>"; };
+		AD05A808E521DA0CF28E71BE2E50468C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC8B9ED23558DF77C8E0629AFC5EED4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF138BD19330BA130D1984071F980047 /* Pods-TADIG-Book.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TADIG-Book.debug.xcconfig"; sourceTree = "<group>"; };
+		C4DB45B9AC8430C81DB296394D7EB07E /* KUIPopOver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KUIPopOver.framework; path = KUIPopOver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C797B1CEEF451C015877B80D4CF0EBB9 /* ZoomTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZoomTransition-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D9BCBE8F737E30647E7738B5526A5475 /* Pods-TADIG-Book-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TADIG-Book-acknowledgements.plist"; sourceTree = "<group>"; };
+		DAE87B16A050726721E1BCDF33C028FF /* KUIPopOverUsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KUIPopOverUsable.swift; path = KUIPopOver/Classes/KUIPopOverUsable.swift; sourceTree = "<group>"; };
+		DBE7D76ED3BDCD8A60C7B97E235C51D8 /* ZoomTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZoomTransition.swift; path = ZoomTransition/ZoomTransition.swift; sourceTree = "<group>"; };
+		DDF2D8A48F0A400BDD3E4F5469C838F5 /* Pods-TADIG-Book-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TADIG-Book-umbrella.h"; sourceTree = "<group>"; };
+		E50C7E0D8C88816934FEA4A78713367B /* ZoomTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZoomTransition-prefix.pch"; sourceTree = "<group>"; };
+		F329F96A3CBEF248C6E4796D01EA843E /* Pods_TADIG_Book.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TADIG_Book.framework; path = "Pods-TADIG-Book.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF082A41FD88B87ADFC8A7640AF3BD5 /* KUIPopOver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KUIPopOver-umbrella.h"; sourceTree = "<group>"; };
+		FE49557B03ACBC9EA9467897B3362D32 /* KUIPopOver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KUIPopOver.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		136D3D27279196396A670E7270BF89C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D71C78BFB094A09A1DF139E1A12284 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1981332D530A3E32637168D7507456D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8BA01F3C1873AA2D014C6F8F1CB4389 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8ECA5BC21102069DD0415107F216EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106FB08D14B2ABD258416CB8B2AEA2D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4939FE90530C6376D78E90EF03F67305 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4DB45B9AC8430C81DB296394D7EB07E /* KUIPopOver.framework */,
+				F329F96A3CBEF248C6E4796D01EA843E /* Pods_TADIG_Book.framework */,
+				0BD3F807E4511E0BBB6E15F3B3F7A9F5 /* ZoomTransition.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BB1CD7D9CC9D281AA69D7181540133D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76EB1485575A9633EDAADAF6B28B5BA3 /* Pods-TADIG-Book */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		76EB1485575A9633EDAADAF6B28B5BA3 /* Pods-TADIG-Book */ = {
+			isa = PBXGroup;
+			children = (
+				BBC8B9ED23558DF77C8E0629AFC5EED4 /* Info.plist */,
+				0049801CD59A196817ED68B9E2EE2DDF /* Pods-TADIG-Book.modulemap */,
+				2FC116784A96CFA4BDD15A813314CC83 /* Pods-TADIG-Book-acknowledgements.markdown */,
+				D9BCBE8F737E30647E7738B5526A5475 /* Pods-TADIG-Book-acknowledgements.plist */,
+				9F78A2B2F9C543A8DE421A6796C7E99F /* Pods-TADIG-Book-dummy.m */,
+				8C6ED4C7D6C1EA3ED629F46BD5615CA3 /* Pods-TADIG-Book-frameworks.sh */,
+				3871D98BCE1FA499A7F54F79F66F4123 /* Pods-TADIG-Book-resources.sh */,
+				DDF2D8A48F0A400BDD3E4F5469C838F5 /* Pods-TADIG-Book-umbrella.h */,
+				BF138BD19330BA130D1984071F980047 /* Pods-TADIG-Book.debug.xcconfig */,
+				87F1AE9A45D23E6B758BB7FA1F77CD2F /* Pods-TADIG-Book.release.xcconfig */,
+			);
+			name = "Pods-TADIG-Book";
+			path = "Target Support Files/Pods-TADIG-Book";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E1E29A8664DBA21EB823EBB3C6EEFE97 /* Pods */,
+				4939FE90530C6376D78E90EF03F67305 /* Products */,
+				6BB1CD7D9CC9D281AA69D7181540133D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C544FE970E2BC6D9176C53783C81C3A0 /* ZoomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				DBE7D76ED3BDCD8A60C7B97E235C51D8 /* ZoomTransition.swift */,
+				E050FD27928A725D9F6741B7546F92CB /* Support Files */,
+			);
+			name = ZoomTransition;
+			path = ZoomTransition;
+			sourceTree = "<group>";
+		};
+		CA9E8DAA4062540A923CA4ECF35D3D5C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD05A808E521DA0CF28E71BE2E50468C /* Info.plist */,
+				71E478CA9FFFA897A9C56472B87D10CC /* KUIPopOver.modulemap */,
+				FE49557B03ACBC9EA9467897B3362D32 /* KUIPopOver.xcconfig */,
+				08911F270012FC84E773F8E5BC0DD4AA /* KUIPopOver-dummy.m */,
+				90B9D71AFB11259001E127517FC91296 /* KUIPopOver-prefix.pch */,
+				FAF082A41FD88B87ADFC8A7640AF3BD5 /* KUIPopOver-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KUIPopOver";
+			sourceTree = "<group>";
+		};
+		E050FD27928A725D9F6741B7546F92CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				85A3C0FBAE30024498D6C03682196D1F /* Info.plist */,
+				6CE0618E4252963BA7E7FF4280C1F15E /* ZoomTransition.modulemap */,
+				7CB932E189F6ABE45AE48A9F933EC268 /* ZoomTransition.xcconfig */,
+				40796C3ADBD3AA60E5DD9743B9AA504F /* ZoomTransition-dummy.m */,
+				E50C7E0D8C88816934FEA4A78713367B /* ZoomTransition-prefix.pch */,
+				C797B1CEEF451C015877B80D4CF0EBB9 /* ZoomTransition-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZoomTransition";
+			sourceTree = "<group>";
+		};
+		E1E29A8664DBA21EB823EBB3C6EEFE97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECE63F62745EB88526E464351C096914 /* KUIPopOver */,
+				C544FE970E2BC6D9176C53783C81C3A0 /* ZoomTransition */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECE63F62745EB88526E464351C096914 /* KUIPopOver */ = {
+			isa = PBXGroup;
+			children = (
+				32BF0626DEB3B396AC0CCE0622D58B78 /* KUIPopOver.swift */,
+				DAE87B16A050726721E1BCDF33C028FF /* KUIPopOverUsable.swift */,
+				CA9E8DAA4062540A923CA4ECF35D3D5C /* Support Files */,
+			);
+			name = KUIPopOver;
+			path = KUIPopOver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		206D5FA7F1BE09AF42C37615BA67387B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57937BFCDB02631AAA4AE49C5FFFA5BE /* ZoomTransition-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA06F0483A45B9777BC490C0FB184E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8F7882331E348B3C24383FC4140D38 /* Pods-TADIG-Book-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06111E8BA8A58186A27E58175FCE0FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5976A56FE0A1414338640650CE1AF941 /* KUIPopOver-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32DBC154A08216A871C849818C275B62 /* KUIPopOver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C03CE9D3E0A24863A5BAB1B75B597D /* Build configuration list for PBXNativeTarget "KUIPopOver" */;
+			buildPhases = (
+				2AFF17182C01FB0AA150CB8DCE728B2E /* Sources */,
+				F8ECA5BC21102069DD0415107F216EE2 /* Frameworks */,
+				D06111E8BA8A58186A27E58175FCE0FC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KUIPopOver;
+			productName = KUIPopOver;
+			productReference = C4DB45B9AC8430C81DB296394D7EB07E /* KUIPopOver.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E74EAAFC8D01DD8D031D687DA43F6783 /* Pods-TADIG-Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DB3E65960A8B05EEC0DD1F3A61946DB /* Build configuration list for PBXNativeTarget "Pods-TADIG-Book" */;
+			buildPhases = (
+				A94FDD83321B20D13AAD9410B7B043FE /* Sources */,
+				B1981332D530A3E32637168D7507456D /* Frameworks */,
+				ACA06F0483A45B9777BC490C0FB184E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF5B93BCC5A47E1EBE9D8D64531300A2 /* PBXTargetDependency */,
+				8462FC863C5C69124FB52ECB41D99B6B /* PBXTargetDependency */,
+			);
+			name = "Pods-TADIG-Book";
+			productName = "Pods-TADIG-Book";
+			productReference = F329F96A3CBEF248C6E4796D01EA843E /* Pods_TADIG_Book.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F402D00BED1B99590DFCBB776A591FEF /* ZoomTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C609D5B90475805607346FAE5AF21C3 /* Build configuration list for PBXNativeTarget "ZoomTransition" */;
+			buildPhases = (
+				EF080C00B40E0706D55FC92D38252449 /* Sources */,
+				136D3D27279196396A670E7270BF89C3 /* Frameworks */,
+				206D5FA7F1BE09AF42C37615BA67387B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoomTransition;
+			productName = ZoomTransition;
+			productReference = 0BD3F807E4511E0BBB6E15F3B3F7A9F5 /* ZoomTransition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4939FE90530C6376D78E90EF03F67305 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32DBC154A08216A871C849818C275B62 /* KUIPopOver */,
+				E74EAAFC8D01DD8D031D687DA43F6783 /* Pods-TADIG-Book */,
+				F402D00BED1B99590DFCBB776A591FEF /* ZoomTransition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AFF17182C01FB0AA150CB8DCE728B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA65E9D9F724F86B2AD381074451AFB5 /* KUIPopOver-dummy.m in Sources */,
+				BDF5094969F7647C5551D1CBBD015C90 /* KUIPopOver.swift in Sources */,
+				0AD48ED0442CA561A4507C82CAE1D7D9 /* KUIPopOverUsable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94FDD83321B20D13AAD9410B7B043FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C2829958E8CF2645501EE6CAD83284 /* Pods-TADIG-Book-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF080C00B40E0706D55FC92D38252449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E0D654084FC942EC100545CACF5A40 /* ZoomTransition-dummy.m in Sources */,
+				67D76A7A6A1024DD168EE02B27FE303C /* ZoomTransition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8462FC863C5C69124FB52ECB41D99B6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZoomTransition;
+			target = F402D00BED1B99590DFCBB776A591FEF /* ZoomTransition */;
+			targetProxy = 432F6D1C52496FF95E296303676F8E2F /* PBXContainerItemProxy */;
+		};
+		BF5B93BCC5A47E1EBE9D8D64531300A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KUIPopOver;
+			target = 32DBC154A08216A871C849818C275B62 /* KUIPopOver */;
+			targetProxy = 10BC9ED960CB3ADC26F41EBD4820E066 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		132AF783254343ECC2C923419A734B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87F1AE9A45D23E6B758BB7FA1F77CD2F /* Pods-TADIG-Book.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TADIG-Book/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TADIG-Book/Pods-TADIG-Book.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TADIG_Book;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1F1EB2A34CF570E8AED04AFD7F18EF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE49557B03ACBC9EA9467897B3362D32 /* KUIPopOver.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KUIPopOver/KUIPopOver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KUIPopOver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KUIPopOver/KUIPopOver.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KUIPopOver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3279E43E8CC040158109985694B655EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB932E189F6ABE45AE48A9F933EC268 /* ZoomTransition.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZoomTransition/ZoomTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZoomTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZoomTransition/ZoomTransition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZoomTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		54D91DCF4E3AE6B757ACBAE5850E8E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE49557B03ACBC9EA9467897B3362D32 /* KUIPopOver.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KUIPopOver/KUIPopOver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KUIPopOver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KUIPopOver/KUIPopOver.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KUIPopOver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D801579DC30E3E56C62765D4149F801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB932E189F6ABE45AE48A9F933EC268 /* ZoomTransition.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZoomTransition/ZoomTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZoomTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZoomTransition/ZoomTransition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ZoomTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C7A5EE6DE2C3784BAA89D1A5D5EB30D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B57ACE8329729BAC2D4B6FEBFB52A092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF138BD19330BA130D1984071F980047 /* Pods-TADIG-Book.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TADIG-Book/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TADIG-Book/Pods-TADIG-Book.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TADIG_Book;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE5513B3E35A5C69E7F70F186BD3CE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24C03CE9D3E0A24863A5BAB1B75B597D /* Build configuration list for PBXNativeTarget "KUIPopOver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D91DCF4E3AE6B757ACBAE5850E8E10 /* Debug */,
+				1F1EB2A34CF570E8AED04AFD7F18EF9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5513B3E35A5C69E7F70F186BD3CE9C /* Debug */,
+				9C7A5EE6DE2C3784BAA89D1A5D5EB30D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DB3E65960A8B05EEC0DD1F3A61946DB /* Build configuration list for PBXNativeTarget "Pods-TADIG-Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57ACE8329729BAC2D4B6FEBFB52A092 /* Debug */,
+				132AF783254343ECC2C923419A734B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C609D5B90475805607346FAE5AF21C3 /* Build configuration list for PBXNativeTarget "ZoomTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D801579DC30E3E56C62765D4149F801 /* Debug */,
+				3279E43E8CC040158109985694B655EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

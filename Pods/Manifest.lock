@@ -1,0 +1,15 @@
+PODS:
+  - KUIPopOver (0.0.4)
+  - ZoomTransition (0.3)
+
+DEPENDENCIES:
+  - KUIPopOver
+  - ZoomTransition (~> 0.3)
+
+SPEC CHECKSUMS:
+  KUIPopOver: 054c644799376b2fc0ce3c9a7b5d90fafa729d2f
+  ZoomTransition: 9ff36a45257ab885545576d9307db038ac0ed2d9
+
+PODFILE CHECKSUM: f3835212b13ebd23a28f9dd723b86bb8c7b6d8de
+
+COCOAPODS: 1.2.0
